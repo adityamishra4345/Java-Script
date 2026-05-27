@@ -52,4 +52,7 @@ let n1 , n2, n3;//multiple declaration
  console.log(n2--)//first print then decrement   101
  //== checks like "2"==2 =>true  as convers str 2 to num 
  //===cheks everything along with datatype so "2"===2  =>false
+ n2=Symbol(23)
+ n3=Symbol(23)
+ console.log(n3==n2);//symbol gives uniqueness means although both are same but false will be o/p
  
