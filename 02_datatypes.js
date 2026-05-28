@@ -20,8 +20,16 @@ let b;
 //symbol => shows uniqueness
 
 //object
+let adi={
+    email : "adi.com",
+    upi: "adi@upi"
+}
+console.log(typeof adi); 
+console.log(adi.email)
 
 console.log(typeof null); //gives output is object
 console.log(typeof undefined) //gives output undefined
 
 //typeof is used to find from which data type its belongs to
+
+
