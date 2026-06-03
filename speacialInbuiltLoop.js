@@ -35,3 +35,18 @@ myCoding.forEach( (item) => {
     
     console.log(item.languageName);
 } )
+
+//to get return value we can use filter
+const nums=[1,2,3,4,5,6]
+const newnums=nums.filter( (num) => {
+    return num>4
+})
+console.log(newnums)
+//eg 2
+let ano=[]
+nums.forEach( function (num) {        //either function ( num){  }
+    if(num>4){                        // or (nums) => {     }
+        ano.push(num)
+    }
+})
+console.log(ano)
