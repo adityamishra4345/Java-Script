@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom Manupulation</title>
+</head>
+<body style="background-color: black; color: white;">
+    <div class="parent">
+        <div class="day">sunday</div>
+        <div class="day">Monday</div>
+        <div class="day">tuesday</div>
+        <div class="day">wednesday</div>
+        <div class="day">thrusday</div>
+       <div class="day">friday</div>
+        <div class="day">saturday</div>
+
+    </div>
+    
+</body>
+<script>
+    const parent=document.querySelector(".parent")
+    console.log(parent)
+    //console.log(parent.children )
+   // console.log(parent.children[0].innerHTML);
+    for(let i=0;i<parent.children.length;i++){
+       console.log( parent.children[i].innerHTML)
+    }
+    parent.children[3].style.color='cyan';
+    console.log(parent.firstElementChild);//first element of parent
+    console.log(parent.lastElementChild);//last element of parent
+    const one=document.querySelector('.day'); //queryselector gives first of the type
+    //queryselectorAll gives html element of all of the type then by using Array.from() we can get array of all elements
+    one.parentElement.children[5].style.color="pink"//.parentElement returns the parent
+    console.log(one.nextElementSibling)
+    
+</script>
+</html>
