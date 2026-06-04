@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript</title>
+</head>
+<body style="background-color: black; color:wheat;">
+    <ul class="language">
+        <li>
+            Javascript
+        </li>
+    </ul>
+    <script>
+        function addlan(name){
+            const li = document.createElement("li")
+            li.innerHTML=`${name}`
+            document.querySelector('.language').appendChild(li)
+        }//this function traverse the complete document
+        addlan("python")
+        addlan("typescript")
+        //optimised way
+        function addoptimlan(name){
+            const li = document.createElement("li")
+            const addtext=document.createTextNode(name);
+            li.appendChild(addtext)
+            document.querySelector('.language').appendChild(li)
+        }
+        addoptimlan("java")
+
+        //edit
+        const secondlang=document.querySelector("li:nth-child(2)")
+        //secondlang.innerHTML="MOJO"//not optimised way
+        const newli=document.createElement('li')
+        newli.textContent="Mojo"
+        secondlang.replaceWith(newli)
+
+        const firstlang=document.querySelector("li:first-child")
+        firstlang.outerHTML="<li>English</li>"//method 3 to edit
+        // const ele=document.querySelector("li")
+        // ele.textContent="English"
+        // firstlang.replaceWith(ele)
+
+        //removing
+        const last=document.querySelector("li:last-child")
+        last.remove()
+</script>
+</body>
+</html>
