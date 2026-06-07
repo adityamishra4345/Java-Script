@@ -1,0 +1,41 @@
+body{
+    background-color: blanchedalmond;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: centre;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 12px;
+    border-color: black;
+    border-radius: 50%;
+ 
+    
+}
+
+button{
+    color: brown;
+    
+}
+form {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+#container {
+    height: auto;
+}
+li {
+    border: 1px solid rgb(56, 32, 32);
+    padding: 8px;
+    margin: 5px 0;
+}
+
+div{
+    padding: 1px;
+    margin: 20px;
+    align-items: center;
+    border: 2px solid pink;
+    border-color: black;
+    width: 500px;
+   
+}
