@@ -1,0 +1,11 @@
+document.getElementById("green").addEventListener('click',function(){
+    document.querySelector('body').style.backgroundColor='green'
+})
+document.getElementById("Purple").addEventListener('click',function(){
+    document.querySelector('body').style.backgroundColor='Purple'
+})
+document.getElementById("red").addEventListener('click',function(){
+    document.querySelector('body').style.backgroundColor='red'
+})
+document.getElementById("cyan").addEventListener('click',function(){
+    document.querySelector('body').style.backgroundColor='cyan'})

@@ -1,0 +1,53 @@
+div {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+
+#Purple{
+      border:solid;
+       width: 100px;
+       height: 100px;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       background: purple;
+            
+}
+
+
+#green{
+       border:solid;
+       width: 100px;
+       height: 100px;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       background-color: green;
+       
+}
+
+
+#cyan{
+       border:solid;
+       width: 100px;
+       height: 100px;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       background-color: cyan;
+       
+}
+
+
+#red{
+       border:solid;
+       width: 100px;
+       height: 100px;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       background-color: red;
+       
+}
