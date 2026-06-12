@@ -1,0 +1,21 @@
+body{
+    background: linear-gradient(to right,rgb(0, 255, 47),rgb(99, 62, 7));
+    
+}
+
+.row {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.sty {
+    display: flex;
+    border: goldenrod solid;
+    width: 400px;
+    padding: 20px;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    margin: auto;
+    height: 400px;
+}
